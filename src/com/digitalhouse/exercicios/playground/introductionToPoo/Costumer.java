@@ -1,11 +1,11 @@
 package com.digitalhouse.exercicios.playground.introductionToPoo;
 
-public class Client {
+public class Costumer {
 
     private String name;
     private String lastName;
 
-    public Client(String name, String lastName) {
+    public Costumer(String name, String lastName) {
         this.name = name;
         this.lastName = lastName;
     }

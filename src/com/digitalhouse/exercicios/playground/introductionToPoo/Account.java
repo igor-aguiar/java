@@ -3,9 +3,9 @@ package com.digitalhouse.exercicios.playground.introductionToPoo;
 public class Account {
     private String accountNumber;
     private Double balance;
-    private Client holder;
+    private Costumer holder;
 
-    public Account(String accountNumber, Double balance, Client holder) {
+    public Account(String accountNumber, Double balance, Costumer holder) {
         this.accountNumber = accountNumber;
         this.balance = balance;
         this.holder = holder;
